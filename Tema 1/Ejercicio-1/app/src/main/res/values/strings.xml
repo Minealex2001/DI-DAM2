@@ -9,4 +9,7 @@
     <string name="apodo">Nickname</string>
     <string name="telefono">Phone</string>
     <string name="email">Email</string>
+    <string name="action_add">Añadir</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_settings">Ajustes</string>
 </resources>
