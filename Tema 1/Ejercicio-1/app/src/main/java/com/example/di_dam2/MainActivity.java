@@ -16,9 +16,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button newPlayerButton = findViewById(R.id.nuevoplayer);
+        Button preferencesButton = findViewById(R.id.ajustes);
 
         newPlayerButton.setOnClickListener(v -> {
             setContentView(R.layout.activity_new_player);
+        });
+
+        preferencesButton.setOnClickListener(v -> {
+            setContentView(R.layout.activity_preferences);
         });
     }
 
