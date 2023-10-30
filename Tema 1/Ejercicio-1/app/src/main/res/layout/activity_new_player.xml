@@ -2,10 +2,11 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/email"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".NewPlayer"
-    android:layout_gravity="center_vertical">
+    android:layout_gravity="center_vertical"
+    tools:context=".NewPlayer">
 
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
@@ -45,9 +46,13 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.8"
+                    android:layout_marginEnd="10dp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/name"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/nombre" />
@@ -57,7 +62,7 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imageView9"
@@ -69,9 +74,13 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.8"
+                    android:layout_marginEnd="10dp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/phoneticname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:hint="@string/nombrefonetico" />
@@ -81,7 +90,7 @@
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <ImageView
                     android:id="@+id/imageView8"
@@ -93,12 +102,16 @@
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content">
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.8"
+                    android:layout_marginEnd="10dp">
 
                     <com.google.android.material.textfield.TextInputEditText
+                        android:id="@+id/nickname"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="hint" />
+                        android:hint="@string/apodo" />
                 </com.google.android.material.textfield.TextInputLayout>
 
             </TableRow>
@@ -115,21 +128,21 @@
 
                 <ImageView
                     android:id="@+id/imageView3"
-                    tools:srcCompat="@tools:sample/avatars"
-                    android:layout_weight="1"/>
+                    android:layout_weight="1"
+                    tools:srcCompat="@tools:sample/avatars" />
 
                 <Button
                     android:id="@+id/button"
-                    android:text="Cambiar"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:backgroundTint="@color/material_dynamic_secondary50"/>
+                    android:backgroundTint="@color/material_dynamic_secondary50"
+                    android:text="Cambiar" />
 
             </TableRow>
 
             <TableRow
                 android:layout_width="wrap_content"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <ImageButton
                     android:id="@+id/imageButton2"
@@ -138,14 +151,18 @@
                     android:layout_weight="0.2"
                     app:srcCompat="@android:drawable/stat_sys_phone_call" />
 
-                <EditText
-                    android:id="@+id/phone"
-                    android:ems="10"
-                    android:layout_width="0dp"
-                    android:layout_height="43dp"
-                    android:layout_weight="0.9"
-                    android:hint="@string/telefono"
-                    android:inputType="phone" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.8"
+                    android:layout_marginEnd="10dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="hint" />
+                </com.google.android.material.textfield.TextInputLayout>
 
             </TableRow>
 
@@ -157,13 +174,13 @@
                 <Spinner
                     android:id="@+id/spinner"
                     android:layout_width="0dp"
-                    android:layout_weight="@integer/material_motion_duration_long_1"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_weight="@integer/material_motion_duration_long_1" />
             </TableRow>
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="match_parent" >
+                android:layout_height="match_parent">
 
                 <ImageButton
                     android:id="@+id/imageButton3"
@@ -172,14 +189,18 @@
                     android:layout_weight="0.2"
                     app:srcCompat="@android:drawable/ic_dialog_email" />
 
-                <EditText
-                    android:id="@+id/email"
-                    android:layout_width="0dp"
-                    android:layout_height="43dp"
-                    android:layout_weight="0.9"
-                    android:ems="10"
-                    android:hint="@string/email"
-                    android:inputType="textEmailAddress" />
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_column="1"
+                    android:layout_weight="0.8"
+                    android:layout_marginEnd="10dp">
+
+                    <com.google.android.material.textfield.TextInputEditText
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="hint" />
+                </com.google.android.material.textfield.TextInputLayout>
 
             </TableRow>
         </TableLayout>
