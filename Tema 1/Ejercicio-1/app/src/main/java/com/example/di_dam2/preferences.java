@@ -19,6 +19,8 @@ public class preferences extends AppCompatActivity {
         RatingBar ratingBar = (RatingBar) findViewById(R.id.ratingBar);
         SeekBar seekBar = (SeekBar) findViewById(R.id.seekBar2);
         FloatingActionButton fab = findViewById(R.id.floatingActionButton);
+
+
         ratingBar.setOnRatingBarChangeListener((ratingBar1, rating, fromUser) -> {
             // TODO Auto-generated method stub
         });
