@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
         Button newPlayerButton = findViewById(R.id.nuevoplayer);
         Button preferencesButton = findViewById(R.id.ajustes);
         Button gameButton = findViewById(R.id.jugar);
+        Button aboutButton = findViewById(R.id.sobre);
 
         newPlayerButton.setOnClickListener(v -> {
             Intent i = new Intent(this, NewPlayer.class);
@@ -34,6 +35,12 @@ public class MainActivity extends AppCompatActivity {
             Intent i = new Intent(this, Games.class);
             startActivity(i);
         });
+
+        aboutButton.setOnClickListener(v -> {
+            Intent i = new Intent(this, About.class);
+            startActivity(i);
+        });
+
     }
 
     @Override
