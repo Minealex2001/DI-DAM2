@@ -12,4 +12,9 @@
     <string name="action_add">Añadir</string>
     <string name="action_buscar">Buscar</string>
     <string name="action_settings">Ajustes</string>
+    <string name="todo">TODO</string>
+    <string name="radiant_defense">Radiant Defense</string>
+    <string name="angry_birds">Angry Birds</string>
+    <string name="dragon_fly">Dragon Fly</string>
+    <string name="hill_climbing_racing">Hill Climbing Racing</string>
 </resources>

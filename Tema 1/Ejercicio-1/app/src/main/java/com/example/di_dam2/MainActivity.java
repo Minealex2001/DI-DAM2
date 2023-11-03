@@ -2,6 +2,7 @@ package com.example.di_dam2;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -17,13 +18,21 @@ public class MainActivity extends AppCompatActivity {
 
         Button newPlayerButton = findViewById(R.id.nuevoplayer);
         Button preferencesButton = findViewById(R.id.ajustes);
+        Button gameButton = findViewById(R.id.jugar);
 
         newPlayerButton.setOnClickListener(v -> {
-            setContentView(R.layout.activity_new_player);
+            Intent i = new Intent(this, NewPlayer.class);
+            startActivity(i);
         });
 
         preferencesButton.setOnClickListener(v -> {
-            setContentView(R.layout.activity_preferences);
+            Intent i = new Intent(this, Preferences.class);
+            startActivity(i);
+        });
+
+        gameButton.setOnClickListener(v -> {
+            Intent i = new Intent(this, Games.class);
+            startActivity(i);
         });
     }
 
