@@ -17,4 +17,8 @@
     <string name="angry_birds">Angry Birds</string>
     <string name="dragon_fly">Dragon Fly</string>
     <string name="hill_climbing_racing">Hill Climbing Racing</string>
+    <string name="radiant_defence">Radiant Defence</string>
+    <string name="pocket_soccer">Pocket Soccer</string>
+    <string name="ninja_jump">Ninja Jump</string>
+    <string name="ari_control">Air Control</string>
 </resources>
