@@ -21,4 +21,13 @@
     <string name="pocket_soccer">Pocket Soccer</string>
     <string name="ninja_jump">Ninja Jump</string>
     <string name="ari_control">Air Control</string>
+    <string name="plataformas">Plataformas</string>
+    <string name="ps4">PS4</string>
+    <string name="pc">PC</string>
+    <string name="xbox">Xbox</string>
+    <string name="wii">WII</string>
+    <string name="wiiu">WII U</string>
+    <string name="n3ds">3DS</string>
+    <string name="x360">Xbox 360</string>
+    <string name="generos">Generos</string>
 </resources>
