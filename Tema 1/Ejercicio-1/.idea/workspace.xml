@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="da15df95-1ca8-44ea-bd9c-b8b8ce4b7bf0" name="Changes" comment="Solo falta que funcione">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/proguard-rules.pro" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/com/example/di_dam2/ExampleInstrumentedTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/games_aircontrol-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/games_angrybirds-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/games_dragonfly-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/games_hillclimbingracing-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/games_ninijump-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/games_pocketsoccer-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/games_radiantdefense-playstore.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/About.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/Games.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/GenerosAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/GenerosViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/MainActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/NewPlayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/Preferences.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/Search.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/about/AboutAdapter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/about/AboutViewHolder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/games_aircontrol_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/games_angrybirds_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/games_dragonfly_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/games_hillclimbingracing_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/games_ninijump_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/games_pocketsoccer_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/games_radiantdefense_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_background.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/drawable/ic_launcher_foreground.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/font/alata.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout-land/activity_new_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/about.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/about_viewholder_layout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_new_player.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_search.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/games.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/preferences.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_aircontrol.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_aircontrol_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_angrybirds.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_angrybirds_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_dragonfly.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_dragonfly_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_hillclimbingracing.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_hillclimbingracing_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_ninijump.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_ninijump_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_pocketsoccer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_pocketsoccer_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_radiantdefense.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/games_radiantdefense_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_aircontrol.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_aircontrol_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_aircontrol_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_angrybirds.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_angrybirds_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_angrybirds_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_dragonfly.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_dragonfly_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_dragonfly_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_hillclimbingracing.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_hillclimbingracing_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_hillclimbingracing_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_ninijump.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_ninijump_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_ninijump_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_pocketsoccer.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_pocketsoccer_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_pocketsoccer_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_radiantdefense.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_radiantdefense_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/games_radiantdefense_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_aircontrol.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_aircontrol_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_aircontrol_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_angrybirds.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_angrybirds_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_angrybirds_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_dragonfly.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_dragonfly_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_dragonfly_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_hillclimbingracing.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_hillclimbingracing_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_hillclimbingracing_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_ninijump.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_ninijump_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_ninijump_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_pocketsoccer.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_pocketsoccer_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_pocketsoccer_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_radiantdefense.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_radiantdefense_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/games_radiantdefense_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_aircontrol.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_aircontrol_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_aircontrol_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_angrybirds.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_angrybirds_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_angrybirds_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_dragonfly.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_dragonfly_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_dragonfly_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_hillclimbingracing.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_hillclimbingracing_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_hillclimbingracing_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_ninijump.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_ninijump_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_ninijump_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_pocketsoccer.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_pocketsoccer_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_pocketsoccer_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_radiantdefense.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_radiantdefense_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/games_radiantdefense_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_aircontrol.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_aircontrol_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_aircontrol_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_angrybirds.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_angrybirds_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_angrybirds_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_dragonfly.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_dragonfly_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_dragonfly_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_hillclimbingracing.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_hillclimbingracing_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_hillclimbingracing_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_ninijump.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_ninijump_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_ninijump_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_pocketsoccer.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_pocketsoccer_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_pocketsoccer_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_radiantdefense.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_radiantdefense_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/games_radiantdefense_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_aircontrol.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_aircontrol_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_aircontrol_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_angrybirds.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_angrybirds_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_angrybirds_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_dragonfly.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_dragonfly_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_dragonfly_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_hillclimbingracing.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_hillclimbingracing_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_hillclimbingracing_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_ninijump.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_ninijump_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_ninijump_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_pocketsoccer.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_pocketsoccer_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_pocketsoccer_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_radiantdefense.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_radiantdefense_foreground.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/games_radiantdefense_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values-night/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/colors.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/themes.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/backup_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/xml/data_extraction_rules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/com/example/di_dam2/ExampleUnitTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/home/alesanpin2/.android/avd/Pixel_3a_API_34_extension_level_7_x86_64.avd]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DI-DAM2" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DI-DAM2" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DI-DAM2" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="DI-DAM2" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="other" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="resourceFile" />
+        <option value="valueResourceFile" />
+        <option value="layoutResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2Wi74jFoggwYdxcgBYGyfapxSD3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ResourceManagerPrefKey.ResourceType": "STRING",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "cidr.known.project.marker": "true",
+    "com.android.tools.idea.devicemanager.tab": "Physical",
+    "last_opened_file_path": "/home/alesanpin2/StudioProjects/DI-DAM2/Tema 1/Play Games",
+    "project.structure.last.edited": "Dependencies",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  }
+}]]></component>
+  <component name="PsdUISettings">
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.example.di_dam2" />
+    </key>
+    <key name="android.template.817732878">
+      <recent name="com.example.di_dam2" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/layout" />
+      <recent name="$PROJECT_DIR$/app/src/main/java/com/example/di_dam2/about" />
+    </key>
+    <key name="android.template.1461405362">
+      <recent name="com.example.di_dam2" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App">
+      <module name="DI-DAM2.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="CLEAR_APP_STORAGE" value="false" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="INSPECTION_WITHOUT_ACTIVITY_RESTART" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="da15df95-1ca8-44ea-bd9c-b8b8ce4b7bf0" name="Changes" comment="" />
+      <created>1697203357822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1697203357822</updated>
+    </task>
+    <task id="LOCAL-00001" summary="El ejercicio lo he terminado mucho antes que el tonto de Charles que esta toqueteando el codigo como si fuera su novia.&#10;P.D. El codigo le quiere más">
+      <created>1697216941303</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1697216941303</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Material Desing es lo mejor que le ha pasado a este planeta">
+      <created>1698075518453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698075518453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Ejercicio hecho">
+      <created>1698080078436</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698080078436</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Esto es un problema para mi yo del futuro">
+      <created>1698428620546</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698428620546</updated>
+    </task>
+    <task id="LOCAL-00005" summary="El problema comeinza a ser mio">
+      <created>1698684008273</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698684008273</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Imagenes añadidas, que dolor hacerlo">
+      <created>1698688278636</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698688278636</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Esta casi terminado, me falta acabarlo">
+      <created>1698690020736</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698690020736</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Esto avanza poco a poco">
+      <created>1699026092915</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1699026092915</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Ya queda poco">
+      <created>1699026994458</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1699026994458</updated>
+    </task>
+    <task id="LOCAL-00010" summary="El fin esta cerca">
+      <created>1699028737700</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1699028737700</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Esta hecho">
+      <created>1699034098785</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1699034098785</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Ejercicio Terminado">
+      <created>1699288791572</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1699288791572</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Ejercicio 3">
+      <created>1699294074152</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1699294074152</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Ejercicio 3: Me he quedado estancado aqui. Me falta formacion">
+      <created>1699295178709</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1699295178709</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Solo falta que funcione">
+      <created>1699639989024</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1699639989024</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="El ejercicio lo he terminado mucho antes que el tonto de Charles que esta toqueteando el codigo como si fuera su novia.&#10;P.D. El codigo le quiere más" />
+    <MESSAGE value="Material Desing es lo mejor que le ha pasado a este planeta" />
+    <MESSAGE value="Ejercicio hecho" />
+    <MESSAGE value="Esto es un problema para mi yo del futuro" />
+    <MESSAGE value="El problema comeinza a ser mio" />
+    <MESSAGE value="Imagenes añadidas, que dolor hacerlo" />
+    <MESSAGE value="Esta casi terminado, me falta acabarlo" />
+    <MESSAGE value="Esto avanza poco a poco" />
+    <MESSAGE value="Ya queda poco" />
+    <MESSAGE value="El fin esta cerca" />
+    <MESSAGE value="Esta hecho" />
+    <MESSAGE value="Ejercicio Terminado" />
+    <MESSAGE value="Ejercicio 3" />
+    <MESSAGE value="Ejercicio 3: Me he quedado estancado aqui. Me falta formacion" />
+    <MESSAGE value="Solo falta que funcione" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solo falta que funcione" />
+  </component>
+</project>
