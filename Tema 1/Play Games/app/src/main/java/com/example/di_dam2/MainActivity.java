@@ -1,5 +1,6 @@
 package com.example.di_dam2;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
@@ -52,12 +53,17 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
-        if (id == R.id.action_buscar) {
-            Toast.makeText(this, "Buscar", Toast.LENGTH_SHORT).show();
+
+        if (id == R.id.action_settings) {
+            Intent i = new Intent(this, Preferences.class);
             return true;
         }
+
+        if (id == R.id.action_buscar) {
+            Intent i = new Intent(this, Search.class);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
-
-
 }
