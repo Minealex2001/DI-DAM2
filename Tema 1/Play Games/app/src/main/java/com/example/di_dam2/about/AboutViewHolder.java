@@ -11,18 +11,20 @@ import androidx.recyclerview.widget.RecyclerView;
 import com.example.di_dam2.R;
 
 
-public class AboutViewHolder extends RecyclerView.ViewHolder {
+public class AboutViewHolder extends RecyclerView.ViewHolder{
 
-    protected ImageView image;
-    protected TextView title;
-    protected TextView subtitle;
-    protected LinearLayout layout;
+    protected ImageView imageView;
+    protected TextView nameView;
+    protected TextView yearView;
+    protected LinearLayout linearLayout;
+
 
     public AboutViewHolder(@NonNull View itemView) {
         super(itemView);
-        image = itemView.findViewById(R.id.aboutImageView);
-        title = itemView.findViewById(R.id.aboutTitle);
-        subtitle = itemView.findViewById(R.id.subtitle);
-        layout = itemView.findViewById(R.id.linear);
+
+        this.imageView = itemView.findViewById(R.id.aboutImageView);
+        this.nameView = itemView.findViewById(R.id.aboutName);
+        this.yearView = itemView.findViewById(R.id.aboutYear);
+        this.linearLayout = itemView.findViewById(R.id.linearLay);
     }
 }

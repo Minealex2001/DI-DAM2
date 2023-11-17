@@ -14,42 +14,48 @@ import com.example.di_dam2.R;
 
 import java.util.List;
 
-public class AboutAdapter extends RecyclerView.Adapter<AboutViewHolder> {
+public class AboutAdapter extends RecyclerView.Adapter<AboutViewHolder>{
 
-    private final List<Integer> imageList;
-    private final List<String> titleList;
-    private final List<String> subtitleList;
+    private final List<Integer> images;
+
+    private final List<String> names;
+
+    private final List<String> years;
     private final Context context;
 
-    public AboutAdapter(List<Integer> imageList, List<String> titleList, List<String> subtitleList, Context context){
-        this.imageList = imageList;
-        this.titleList = titleList;
-        this.subtitleList = subtitleList;
+    public AboutAdapter(List<Integer> images, List<String> names, List<String> years, Context context) {
+        this.images = images;
+        this.names = names;
+        this.years = years;
         this.context = context;
     }
+
     @NonNull
     @Override
     public AboutViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        View layoutView = LayoutInflater.from(parent.getContext())
+        View view = LayoutInflater.from(parent.getContext())
                 .inflate(R.layout.about_viewholder_layout, parent, false);
-        return new AboutViewHolder(layoutView);
+
+        return new AboutViewHolder(view);
     }
 
     @Override
     public void onBindViewHolder(@NonNull AboutViewHolder holder, int position) {
-        String name = titleList.get(position);
-        int imageId = imageList.get(position);
-        String year = subtitleList.get(position);
+        String name = this.names.get(position);
+        String year = this.years.get(position);
+        int image = this.images.get(position);
 
-        holder.title.setText(name);
-        holder.subtitle.setText(year);
-        holder.image.setImageResource(imageId);
+        holder.nameView.setText(name);
+        holder.yearView.setText(year);
+        holder.imageView.setImageResource(image);
 
-        holder.layout.setOnClickListener(v -> Toast.makeText(context, name, Toast.LENGTH_SHORT).show());
+
+        holder.linearLayout.setOnClickListener(
+                v -> Toast.makeText(context, name, Toast.LENGTH_SHORT).show());
     }
 
     @Override
     public int getItemCount() {
-        return imageList != null && titleList != null && subtitleList != null ? imageList.size() : 0;
+        return images != null && names != null && years != null ? images.size() : 0;
     }
 }
