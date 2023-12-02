@@ -4,7 +4,7 @@ plugins {
 
 android {
     namespace = "com.alejandro.practica5_2_3"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.alejandro.practica5_2_3"
