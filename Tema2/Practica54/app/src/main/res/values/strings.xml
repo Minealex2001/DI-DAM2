@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Practica5-4</string>
+    <string name="imagen_comida">Imagen de comida</string>
+    <string name="nombre_comida">Nombre de la comida</string>
+    <string name="rating">Rating</string>
+    <string name="direccion_comida">Dirección de la comida</string>
+    <string name="reservar">Reservar</string>
+</resources>
