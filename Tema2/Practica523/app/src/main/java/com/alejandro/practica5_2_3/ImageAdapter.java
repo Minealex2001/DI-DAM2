@@ -1,6 +1,5 @@
 package com.alejandro.practica5_2_3;
 
-import android.annotation.SuppressLint;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,7 +17,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
         this.datos = imagenes;
     }
 
-    public static class ImageViewHolder extends RecyclerView.ViewHolder {
+    public class ImageViewHolder extends RecyclerView.ViewHolder {
 
         protected ImageView imageView;
         public ImageViewHolder(View itemView) {
@@ -35,7 +34,7 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ImageViewHol
     }
 
     @Override
-    public void onBindViewHolder(@NonNull ImageViewHolder holder, @SuppressLint("RecyclerView") int position) {
+    public void onBindViewHolder(@NonNull ImageViewHolder holder, int position) {
         ItemSolar item = datos.get(position);
         holder.imageView.setImageResource(item.getImagen());
         Toolbar toolbar = (Toolbar) holder.itemView.findViewById(R.id.toolbar);

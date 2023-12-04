@@ -4,13 +4,20 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Toolbar;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
+    Toolbar toolbar;
+    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,5 +39,22 @@ public class MainActivity extends AppCompatActivity {
         recyclerView.setAdapter(imageAdapter);
 
         recyclerView.setAdapter(new ImageAdapter(itemsSolars));
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.menu_comparar, menu);
+        getSupportActionBar().setTitle("El Sol");
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item){
+        int id = item.getItemId();
+        if (id == R.id.compararPlanetas){
+            Intent i = new Intent(this, CompararPlanetas.class);
+            startActivity(i);
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

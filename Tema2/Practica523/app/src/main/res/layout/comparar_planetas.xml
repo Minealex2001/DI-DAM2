@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:id="@+id/textView_compararPlanetas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="Compara planetas"
+        android:textSize="30dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewplaneta1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="center"
+            tools:ignore="LabelFor" />
+
+        <AutoCompleteTextView
+            android:id="@+id/autoCompleteTextViewplaneta2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginStart="5dp"
+            android:textAlignment="center"
+            tools:ignore="LabelFor" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_diametro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diámetro"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/diametro1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/diametro2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:padding="3dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_DistanciaSol"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Distancia al Sol"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/distancia1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/distancia2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:padding="3dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_densidad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Densidad"
+        android:textSize="20dp"
+        android:textAlignment="center" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp">
+
+
+        <TextView
+            android:id="@+id/densidad1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:padding="3dp" />
+
+        <TextView
+            android:id="@+id/densidad2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="0"
+            android:textAlignment="center"
+            android:padding="3dp" />
+    </LinearLayout>
+</LinearLayout>

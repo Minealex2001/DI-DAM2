@@ -1,0 +1,28 @@
+R_DEF: Internal format may change without notice
+local
+color black
+color white
+drawable ic_launcher_background
+drawable ic_launcher_foreground
+drawable image1
+drawable image10
+drawable image2
+drawable image3
+drawable image4
+drawable image5
+drawable image6
+drawable image7
+drawable image8
+drawable image9
+id imageSwitcher
+id imageView
+id reciclerViewImagen
+layout activity_main
+layout imagen
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style Base.Theme.Practica51
+style Theme.Practica51
+xml backup_rules
+xml data_extraction_rules
