@@ -1,5 +1,6 @@
 package com.alejandro.ejercicio2;
 
+import androidx.appcompat.app.ActionBar;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.drawerlayout.widget.DrawerLayout;
@@ -26,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         //Más findViews
         DrawerLayout drawerLayout = findViewById(R.id.drawer_layout);
         NavigationView navView = findViewById(R.id.nav_view);
+
         // Aquí determinamos que el fragment que está en content_main.xml será el anfitrión de la navegación
         // Se establece como punto central para mantener el estado de la navegación en tu aplicación.
         NavHostFragment navHostFragment = (NavHostFragment)
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = navHostFragment.getNavController();
         // Creamos un objeto de configuración para la Toolbar
         // Para que tenga en cuenta los destinos de navegación y que tipo de menú se abrirá al pulsar
-        appBarConfiguration = new AppBarConfiguration.Builder(navController.getGraph())
+        appBarConfiguration = new AppBarConfiguration.Builder(R.id.fragment_home, R.id.fragment_gallery, R.id.fragment_slideshow)
                 .setOpenableLayout(drawerLayout)
                 .build();
         //Estas dos líneas integran todo: Toolbar, menu lateral y el navController

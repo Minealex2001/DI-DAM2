@@ -5,6 +5,11 @@
     android:id="@+id/mobile_navigation"
     app:startDestination="@id/fragment_home">
     <fragment
+            android:id="@+id/fragment_home"
+            android:name="com.alejandro.ejercicio2.fragments.fragment_home"
+            android:label="fragment_home"
+            tools:layout="@layout/fragment_home"/>
+    <fragment
         android:id="@+id/fragment_gallery"
         android:name="com.alejandro.ejercicio2.fragments.fragment_gallery"
         android:label="fragment_gallery"
@@ -14,9 +19,5 @@
         android:name="com.alejandro.ejercicio2.fragments.fragment_slideshow"
         android:label="fragment_slideshow"
         tools:layout="@layout/fragment_slideshow" />
-    <fragment
-        android:id="@+id/fragment_home"
-        android:name="com.alejandro.ejercicio2.fragments.fragment_home"
-        android:label="fragment_home"
-        tools:layout="@layout/fragment_home"/>
+
 </navigation>
