@@ -2,13 +2,26 @@ package com.alejandro.ejercicio2.fragments;
 
 import android.os.Bundle;
 
+import android.widget.TextView;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.recyclerview.widget.StaggeredGridLayoutManager;
 import com.alejandro.ejercicio2.R;
+import com.alejandro.ejercicio2.models.Card;
+import com.alejandro.ejercicio2.models.CardAdapter;
+import com.google.android.material.floatingactionbutton.FloatingActionButton;
+import org.jetbrains.annotations.NotNull;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Objects;
 
 /**
  * A simple {@link Fragment} subclass.
@@ -30,15 +43,6 @@ public class fragment_gallery extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment fragment_gallery.
-     */
-    // TODO: Rename and change types and number of parameters
     public static fragment_gallery newInstance(String param1, String param2) {
         fragment_gallery fragment = new fragment_gallery();
         Bundle args = new Bundle();
@@ -54,6 +58,9 @@ public class fragment_gallery extends Fragment {
         if (getArguments() != null) {
             mParam1 = getArguments().getString(ARG_PARAM1);
             mParam2 = getArguments().getString(ARG_PARAM2);
+
+
+
         }
     }
 
@@ -62,5 +69,28 @@ public class fragment_gallery extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_gallery, container, false);
+    }
+
+    @Override
+    public void onViewCreated(@NonNull @NotNull View view, @Nullable @org.jetbrains.annotations.Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
+
+        List<Card> datos = new ArrayList<Card>(){{
+            add(new Card(R.drawable.image1, "Imagen 1"));
+            add(new Card(R.drawable.image2, "Imagen 2"));
+            add(new Card(R.drawable.image3, "Imagen 3"));
+            add(new Card(R.drawable.image4, "Imagen 4"));
+            add(new Card(R.drawable.image5, "Imagen 5"));
+            add(new Card(R.drawable.image6, "Imagen 6"));
+            add(new Card(R.drawable.image7, "Imagen 7"));
+            add(new Card(R.drawable.image8, "Imagen 8"));
+            add(new Card(R.drawable.image9, "Imagen 9"));
+        }};
+
+            RecyclerView recyclerView = requireView().findViewById(R.id.recyclerView);
+            recyclerView.setLayoutManager(new StaggeredGridLayoutManager(2, StaggeredGridLayoutManager.VERTICAL));
+            CardAdapter adaptador = new CardAdapter(datos);
+
+            recyclerView.setAdapter(adaptador);
     }
 }

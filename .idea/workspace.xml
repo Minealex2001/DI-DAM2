@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12e4bf5b-0749-426e-aa46-447b384f3b5b" name="Changes" comment="" />
+    <list default="true" id="12e4bf5b-0749-426e-aa46-447b384f3b5b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +18,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitToolBoxStore">
+    <option name="projectConfigVersion" value="5" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2Wi73TBVc5Ojbr6K82VMdqcGYh8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,8 +40,12 @@
     "RunOnceActivity.cidr.known.project.marker": "true",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/home/alesanpin2/DI-DAM2/Tema3/MyMail"
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/alesanpin2/DI-DAM2/Tema3/MyMail",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -44,6 +56,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1697203347524</updated>
+      <workItem from="1705678763541" duration="1000" />
+      <workItem from="1705678784330" duration="4000" />
     </task>
     <servers />
   </component>
